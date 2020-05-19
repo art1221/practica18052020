@@ -4,6 +4,7 @@ var botonOtraTable = document.getElementById("btnReiniciar");
 
 botonCalcular.addEventListener("click",funcionTabla);
 botonOtraTable.addEventListener("click",funcionReiniciar);
+textoNumero.addEventListener("keyup",tablaporenter);
 
 function funcionTabla(){
   var numero = parseInt(textoNumero.value);
